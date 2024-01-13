@@ -29,6 +29,7 @@ body:
     label: "I confirm this not a request for currently unreleased content."
     description: | [!CAUTION] 
       Feature requests for unreleased content will not be accepted.
+      
     options:
       - Confirm
   validations:
