@@ -1,2 +1,3 @@
-# issues
-Digsite Crew Issue Tracker
+# Digsite Crew Issue Tracker
+
+Report issues with Digsite content here.
