@@ -2,10 +2,10 @@ name: Feature Request
 description: Requested improvments to existing digsite content. Unreleased assets are out of scope.
 labels: ["feature request"]
 body:
-  - type: markdown
+- type: markdown
   attributes:
     value: "## Digsite Feature Request"
-  - type: dropdown
+- type: dropdown
   id: game
   attributes:
     label: "Game"
