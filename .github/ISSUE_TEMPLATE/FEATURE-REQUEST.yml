@@ -9,7 +9,7 @@ body:
   id: game
   attributes:
     label: "Game"
-    description: ""
+    description: Which game is this feature request for?
     options:
       - Halo 1
       - Halo 2
