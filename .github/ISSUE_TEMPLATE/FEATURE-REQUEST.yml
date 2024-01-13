@@ -1,0 +1,34 @@
+name: Feature Request
+description: Requested improvments to existing digsite content. Unreleased assets are out of scope.
+labels: ["feature request"]
+body:
+  - type: markdown
+  attributes:
+    value: "## Digsite Feature Request"
+  - type: dropdown
+  id: game
+  attributes:
+    label: "Game"
+    description: ""
+    options:
+      - Halo 1
+      - Halo 2
+      - Halo 3
+  validations:
+    required: true
+- type: textarea
+  id: description
+  attributes:
+    label: Feature description
+    description: Describe the feature requested in detail. Please include screenshots or videos if these help describe it.
+  validations:
+    required: true
+- type: dropdown
+  id: type
+  attributes:
+    label: "I confirm this not a request for currently unreleased content."
+    description: Feature requests for unreleased content will not be accepted.
+    options:
+      - Confirm
+  validations:
+    required: true
