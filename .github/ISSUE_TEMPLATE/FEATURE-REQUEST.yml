@@ -27,7 +27,8 @@ body:
   id: type
   attributes:
     label: "I confirm this not a request for currently unreleased content."
-    description: "[!CAUTION] Feature requests for unreleased content will not be accepted."
+    description: | "[!CAUTION] "
+      "Feature requests for unreleased content will not be accepted."
     options:
       - Confirm
   validations:
